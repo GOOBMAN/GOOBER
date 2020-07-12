@@ -1,19 +1,20 @@
 #Header {
     text-align: center;
-    color: #FF8600;
+    color: #6B63D5;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: underline;
     background-color: #0B0B0B;
-    text-shadow: 0px 0px 125px #FFFFFF;
+    text-shadow: 0px 0px 62px #0200FF;
     font-size: 38px;
 }
 .SecondText {
-    color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
-    font-size: 31px;
-    text-shadow: 0px 0px 25px #000000;
+    font-size: 41px;
+    text-shadow: 0px 0px 25px #FFFFFF;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-indent: 0px;
     text-align: center;
+    color: #000000;
+	
 }
