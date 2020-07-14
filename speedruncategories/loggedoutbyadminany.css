@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.pagecontainer {
+	max-width: 960px;
+    margin:auto;
+}
+
+/*background*/
+.background {
+    background-color: white;
+    background-image: url(background.png);
+}
+
+/*header image in center at top*/
+.headimage {
+    margin-left: 0px;
+}
+.headimagecontainer {
+	float:top;
+    text-align: center;
+}
+
+/*navigation bar*/
+.navbarcontainer {
+    background-color: #353535;
+    text-align: center;
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    width: 960px;
+    border: 2px solid #000000;
+    background-image: url(bartexture.png);
+    background-size: 100px auto;
+}
+.navbar1 {
+    display: inline-block;
+    background-color: #DBDBDB;
+    padding: 4px 20px;
+    border: 2px solid #121212;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    box-shadow: 0px 0px 7px #000000;	
+}
+.navbar1:hover:not(.active) {
+	background-color: white;
+}
+/*This marks the home in the nav bar*/
+.Marker {
+    text-shadow: 0px 0px 4px #FF0004;
+}
+
+/*leftsidebar*/
+.sidebarleftcontainer {
+    width: 300px;
+    padding: 4px 20px;
+    height: 111pt;
+    background-image: url(bartexture.png);
+    background-size: 110px auto;
+    border: 2px solid #121212;
+    float: left;
+}
+.sidebarlefttexttitle {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+    background-color: #DBDBDB;
+	border: 2px solid #121212;
+    box-shadow: 0px 0px 7px #000000;
+	padding: 4px 10px;
+	
+}
+.sidebarlefttext {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	background-color:#ADADAD;
+	border: 2px solid #121212;
+    box-shadow: 0px 0px 7px #000000;
+	padding: 4px 10px;
+	text-align:center;
+}
+
+/*rightsidebar*/
+.rightsidebarcontainer {
+    width: 550px;
+    padding: 4px 20px;
+    height: 200pt;
+    background-image: url(bartexture.png);
+    background-size: 110px auto;
+    border: 2px solid #121212;
+    float: left;
+    margin-left: 22px;
+    left: 0px;
+}
+.righttexttitle {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+    background-color: #DBDBDB;
+    border: 2px solid #121212;
+    box-shadow: 0px 0px 7px #000000;
+    padding: 4px 10px;
+    height: 20px;
+	}
+.righttexttitle2 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+    background-color: #DBDBDB;
+    border: 2px solid #121212;
+    box-shadow: 0px 0px 7px #000000;
+    padding: 4px 10px;
+    height: 57px;
+	}
+
+
+.righttext {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: center;
+}
+.righttexttitle2 {
+}
