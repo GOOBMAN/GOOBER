@@ -81,7 +81,7 @@
 .rightsidebarcontainer {
     width: 550px;
     padding: 4px 20px;
-    height: 100pt;
+    height: 260pt;
     background-image: url(bartexture.png);
     background-size: 110px auto;
     border: 2px solid #121212;
@@ -96,9 +96,42 @@
     border: 2px solid #121212;
     box-shadow: 0px 0px 7px #000000;
     padding: 4px 10px;
-    height: 90px;
-}
+    height: 20px;
+	}
+.righttexttitle2 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+    background-color: #DBDBDB;
+    border: 2px solid #121212;
+    box-shadow: 0px 0px 7px #000000;
+    padding: 4px 10px;
+    height: 57px;
+	}
+
+
 .righttext {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	text-align: center;
+}
+
+/*rightsidebar leaderboard*/
+.leaderboard {
+    text-align: center;
+    margin-top: 0pc;
+    margin-bottom: 0pc;
+    margin-right: auto;
+    margin-left: auto;
+    width: 399px;
+    border: 2px solid #000000;
+    -webkit-box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 10px;
+    background-color: #434343;
+}
+.LeaderboardText {
+    border: 2px solid #000000;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    text-align: center;
+    width: 141px;
+    background-color: #ACACAC;
 }
