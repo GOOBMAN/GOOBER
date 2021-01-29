@@ -48,7 +48,7 @@
 .sidebarleftcontainer {
     width: 220px;
     padding: 4px 20px;
-    height: 111pt;
+    height: 305pt;
     background-image: url(bartexture.png);
     background-size: 110px auto;
     border: 2px solid #121212;
@@ -63,8 +63,22 @@
 	padding: 4px 10px;
 	
 }
+
+.sidebarleftimage {
+	width: 80px;
+	height: 80px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: left;
+}
+
+.sidebarleftimagelinks {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: right;
+}
+
 .sidebarlefttext {
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: left;
 }
 
 /*center of page*/
@@ -101,7 +115,7 @@
 .rightsidebarcontainer {
     width: 220px;
     padding: 4px 20px;
-    height: 100pt;
+    height: 130pt;
     background-image: url(bartexture.png);
     background-size: 110px auto;
     border: 2px solid #121212;
